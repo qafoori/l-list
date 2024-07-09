@@ -1,4 +1,5 @@
 export interface LinkedList<T, Node> {
+    length: number;
     printAll(): this;
     toArray(): T[];
     appendHead(value: T): this;
@@ -20,4 +21,5 @@ export interface LinkedList<T, Node> {
     getBy(value: T): Node | null;
     getAllBy(value: T): Node[];
     getNthFromEnd(index: number): Node;
+    toString(): string;
 }

@@ -26,4 +26,5 @@ export declare class DoublyLinkedList<T> implements LinkedList<T, Node<T>> {
     getBy(value: T): Node<T> | null;
     getAllBy(value: T): Node<T>[];
     getNthFromEnd(index: number): Node<T>;
+    toString(): string;
 }
