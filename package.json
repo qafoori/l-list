@@ -1,10 +1,10 @@
 {
-  "name": "l-list",
+  "name": "dsa-linked-list",
   "version": "0.0.0",
   "description": "Various linked list implementations on TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "homepage": "https://github.com/qafoori/l-list",
+  "homepage": "https://github.com/qafoori/linked-lists",
   "files": [
     "dist",
     "README.md"
@@ -12,7 +12,7 @@
   "license": "MIT",
   "private": false,
   "repository": {
-    "url": "https://github.com/qafoori/l-list.git",
+    "url": "https://github.com/qafoori/linked-lists.git",
     "type": "git"
   },
   "author": {
